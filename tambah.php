@@ -1,4 +1,3 @@
-
 <?php
 include 'koneksi.php';
 
@@ -12,7 +11,7 @@ if (isset($_POST['simpan'])) {
 
     $query = "INSERT INTO menu
               (nama, kategori, harga, alergen, halal, deskripsi)
-              VALUES (?, ?, ?, ?, ?, ?)";
+              VALUE (?, ?, ?, ?, ?, ?)";
 
     $stmt = mysqli_prepare($conn, $query);
 

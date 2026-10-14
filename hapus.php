@@ -1,4 +1,3 @@
-```php
 <?php
 include 'koneksi.php';
 
@@ -18,4 +17,3 @@ if (mysqli_stmt_execute($stmt)) {
     echo "Gagal menghapus menu.";
 }
 ?>
-```
